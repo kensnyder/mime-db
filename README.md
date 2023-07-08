@@ -21,17 +21,6 @@ It aggregates data from the following sources:
 npm install mime-db
 ```
 
-### Database Download
-
-If you're crazy enough to use this in the browser, you can just grab the
-JSON file using [jsDelivr](https://www.jsdelivr.com/). It is recommended to
-replace `master` with [a release tag](https://github.com/jshttp/mime-db/tags)
-as the JSON format may change in the future.
-
-```
-https://cdn.jsdelivr.net/gh/jshttp/mime-db@master/db.json
-```
-
 ## Usage
 
 ```js

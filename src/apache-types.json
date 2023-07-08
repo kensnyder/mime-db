@@ -980,6 +980,9 @@
   "application/vnd.geogebra.file": {
     "extensions": ["ggb"]
   },
+  "application/vnd.geogebra.slides": {
+    "extensions": ["ggs"]
+  },
   "application/vnd.geogebra.tool": {
     "extensions": ["ggt"]
   },
@@ -2127,6 +2130,9 @@
     "extensions": ["vxml"]
   },
   "application/vq-rtcpxr": {},
+  "application/wasm": {
+    "extensions": ["wasm"]
+  },
   "application/watcherinfo+xml": {},
   "application/whoispp-query": {},
   "application/whoispp-response": {},

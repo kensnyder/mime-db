@@ -38,6 +38,7 @@
     "LICENSE",
     "README.md",
     "db.json",
+    "db.min.js",
     "index.js"
   ],
   "engines": {

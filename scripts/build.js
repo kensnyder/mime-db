@@ -36,6 +36,7 @@ Object.keys(mime).forEach(function (suffix) {
 
 // write db
 require('./lib/write-db')('db.json', db)
+require('./lib/write-db-min')('db.min.js', db)
 
 /**
  * Add mime data to the db, marked as a given source.

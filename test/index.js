@@ -5,6 +5,7 @@ var join = require('path').join
 var typer = require('media-typer')
 
 var db = require('..')
+var dbMin = require('../db.min.js')
 
 describe('mime-db', function () {
   it('should not contain types not in src/', function () {
@@ -67,5 +68,11 @@ describe('mime-db', function () {
   it('should have the default .extension as the first', function () {
     assert.strictEqual(db['text/plain'].extensions[0], 'txt')
     assert.strictEqual(db['video/x-matroska'].extensions[0], 'mkv')
+  })
+})
+
+describe('db.min.js', function () {
+  it('should be equivalent to db.json', function () {
+    assert.deepStrictEqual(db, dbMin)
   })
 })
